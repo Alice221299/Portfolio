@@ -1,0 +1,12 @@
+@import "./variables.scss";
+
+@mixin h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-family: $font-main;
+    font-weight: 500;
+    letter-spacing: 1px;
+    span {
+        color: $accent-color;
+    }
+}

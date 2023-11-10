@@ -1,0 +1,44 @@
+@import '../../assets/styles/variables.scss';
+
+.introduction {
+    display: flex;
+    gap: 5rem;
+    h1, h2 {
+        font-family: $font-main;
+        margin-bottom: 2rem;
+        letter-spacing: 1px;
+    }
+    h1 {
+        font-size: 4rem;
+        
+    }
+    h2 {
+        font-size: 2rem;
+        opacity: 80%;
+    }
+    span {
+        color: $accent-color;
+    }
+    &--links {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        img {
+            height: 50px;
+        }
+        img:hover {
+            filter: brightness(150%);
+            transform: scale(1.2);
+        }
+        .links--github {
+            height: 60px;
+        }
+    }
+    &--profile-image img {
+        border-radius: 50%;
+        background: linear-gradient(white, white) padding-box,
+              linear-gradient(to top, $secondary-text, $accent-color) border-box;
+        border: 10px solid transparent;
+        height: 400px;
+    }
+}
