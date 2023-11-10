@@ -4,55 +4,56 @@ import "./skills.scss"
 const Skills = () => {
 
   const skillsNow = [{
-    image: '/public/icons/html.svg',
+    image: '/icons/html.svg',
     name: 'HTML5'
   },{
-    image: '/public/icons/css.svg',
+    image: '/icons/css.svg',
     name: 'CSS3'
   },{
-    image: '/public/icons/sass.svg',
+    image: '/icons/sass.svg',
     name: 'Sass'
   },{
-    image: '/public/icons/js.svg',
+    image: '/icons/js.svg',
     name: 'JavaScript'
   },{
-    image: '/public/icons/react.svg',
+    image: '/icons/react.svg',
     name: 'React.js'
   },
   {
-    image: '/public/icons/redux.svg',
+    image: '/icons/redux.svg',
     name: 'React Redux'
   },
   {
-    image: '/public/icons/git.svg',
+    image: '/icons/git.svg',
     name: 'Git'
   },
   {
-    image: '/public/icons/firebase.svg',
+    image: '/icons/firebase.svg',
     name: 'Firebase'
   },
   {
-    image: '',
-    name: ''
+    image: '/icons/tailwind.svg',
+    name: 'Tailwind CSS'
   },
 ]
 
 const skillsLearning = [{
-  image: '/public/icons/us.svg',
+  image: '/icons/us.svg',
   name: 'English C1'
 },{
-  image: '/public/icons/spain.svg',
+  image: '/icons/spain.svg',
   name: 'Spanish B2'
 },{
-  image: '/public/icons/russia.svg',
+  image: '/icons/russia.svg',
   name: 'Russian Native'
 },{
-  image: '/public/icons/figma.svg',
+  image: '/icons/figma.svg',
   name: 'Figma'
-},{
-  image: '',
-  name: ''
-},
+}
+// ,{
+//   image: '',
+//   name: ''
+// },
 ]
 
   return (
