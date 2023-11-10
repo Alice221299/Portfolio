@@ -25,7 +25,7 @@ const About_me = () => {
 </div>
       </div>
       <figure className='about-me--image'>
-        <img src="/public/images/other-image.jpg" alt="Image for hobby" />
+        <img src="/images/other-image.jpg" alt="Image for hobby" />
       </figure>
     </section>
   )
